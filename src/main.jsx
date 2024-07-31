@@ -11,3 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </Provider>
   </React.StrictMode>,
 )
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
